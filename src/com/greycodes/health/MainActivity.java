@@ -4,6 +4,7 @@ package com.greycodes.health;
 import java.util.ArrayList;
 
 import com.greycodes.health.adapter.HomeNDadapter;
+import com.greycodes.health.misc.LoginFragment;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -153,7 +154,7 @@ adapter = new HomeNDadapter(getApplicationContext(), nav_options);
 		Fragment fragment = null;
 		switch (position) {
 		case 0:
-			fragment = new HomeFragment();
+			fragment = new LoginFragment();
 			break;
 		
 
